@@ -59,7 +59,7 @@
   - "되돌리기"
   
   - 특정 commit으로 되돌아 갔을 때, 되돌아간 commit 이후의 모든 commit 삭제
-
+  
   ![](C:\Users\SSAFY\AppData\Roaming\marktext\images\2025-01-17-11-32-07-image.png)
 
 - **삭제되는 commit들의 기록을 어떤 영역에 남겨둘 것인지** 옵션을 활용해 조정가능
@@ -92,8 +92,6 @@
 
 ![](C:\Users\SSAFY\AppData\Roaming\marktext\images\2025-01-17-11-43-51-image.png)
 
-
-
 - **git restore**
   
   - modified 상태의 파일 되돌리기
@@ -108,8 +106,6 @@
   
   - git restore 통해 수정 취소 후 해당 내용 복원 불가능
 
-
-
 - staging area에 올라간 파일  unstage
   
   - staging area에서  working directory로 되돌리기(git 저장소에 "commit이 **없는** 
@@ -120,11 +116,9 @@
     git rm --cached
     ```
   
-  -  git-unstage-practice 폴더 생성 -> 생성 폴더 이동 -> vscode 실행 -> git init
+  - git-unstage-practice 폴더 생성 -> 생성 폴더 이동 -> vscode 실행 -> git init
   
           -> README.md 생성 -> git add . -> git status -> git rm --cached -> git status
-
-
 
 - staging area에서 working directory로 되돌리기(git 저장소에 "commit이 **존재하는** 
   
@@ -135,5 +129,3 @@
   ```
   
   - commit 생성 -> README.md 재수정 후 저장 -> git add . ->  git restore --staged
-
-
